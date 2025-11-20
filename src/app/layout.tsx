@@ -51,11 +51,11 @@ export const metadata: Metadata = {
     openGraph: {
         title: siteConfig.name,
         description: siteConfig.description,
-        url: "https://devi-chatbot.vercel.app",
+        url: "https://devi.devanthos.com",
         siteName: "Devi | Asistente de Devanthos",
         images: [
             {
-                url: "https://devi-chatbot.vercel.app/metadata.jpg",
+                url: "https://devi.devanthos.com/metadata.jpg",
                 width: 1200,
                 height: 630,
             },
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
         siteId: "1467726470533754880",
         creator: "@Juanmora1810",
         creatorId: "1467726470533754880",
-        images: ["https://devi-chatbot.vercel.app/metadata.jpg"],
+        images: ["https://devi.devanthos.com/metadata.jpg"],
     },
 };
 
