@@ -29,38 +29,49 @@ export const metadata: Metadata = {
         template: `%s - ${siteConfig.name}`,
     },
     description: siteConfig.description,
-    keywords: ["Devanthos", "Devi", "Asistente Virtual"],
+    keywords: [
+        "Devanthos",
+        "Devi",
+        "Asistente Virtual",
+        "Chatbot",
+        "Soporte",
+        "Consultas",
+        "Tecnología",
+        "Innovación",
+        "Atención al Cliente",
+        "Automatización",
+    ],
     icons: {
         icon: "/favicon.svg",
         apple: "/favicon.svg",
         shortcut: "/favicon.svg",
     },
-    // manifest: "/manifest.json",
+    manifest: "/manifest.json",
     creator: "Juan Morales",
-    // openGraph: {
-    //     title: siteConfig.name,
-    //     description: siteConfig.description,
-    //     url: "https://pichirika.com",
-    //     siteName: "PichiriKa",
-    //     images: [
-    //         {
-    //             url: "https://pichirika.com/Metadata.jpg",
-    //             width: 1200,
-    //             height: 630,
-    //         },
-    //     ],
-    //     locale: "es_AR",
-    //     type: "website",
-    // },
-    // twitter: {
-    //     card: "summary_large_image",
-    //     title: siteConfig.name,
-    //     description: siteConfig.description,
-    //     siteId: "1467726470533754880",
-    //     creator: "@Juanmora1810",
-    //     creatorId: "1467726470533754880",
-    //     images: ["https://pichirika.com/Metadata.jpg"],
-    // },
+    openGraph: {
+        title: siteConfig.name,
+        description: siteConfig.description,
+        url: "https://devi-chatbot.vercel.app",
+        siteName: "Devi | Asistente de Devanthos",
+        images: [
+            {
+                url: "https://devi-chatbot.vercel.app/metadata.jpg",
+                width: 1200,
+                height: 630,
+            },
+        ],
+        locale: "es_AR",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: siteConfig.name,
+        description: siteConfig.description,
+        siteId: "1467726470533754880",
+        creator: "@Juanmora1810",
+        creatorId: "1467726470533754880",
+        images: ["https://devi-chatbot.vercel.app/metadata.jpg"],
+    },
 };
 
 export default function RootLayout({
@@ -84,7 +95,6 @@ export default function RootLayout({
                             `,
                     }}
                 />
-
                 {children}
             </body>
         </html>
